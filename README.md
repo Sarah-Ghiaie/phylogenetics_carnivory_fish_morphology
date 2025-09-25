@@ -1,10 +1,9 @@
 # phylogenetics_carnivory_fish_morphology
-Shared repo for Sarah, Bailey, & Brett's
-BIOL 4300 - 001 final project: Carnivory Influence on Fish Morphology
+Shared repo for Sarah, Bailey, & Brett's BIOL 4300 - 001 final project.
 
-Contributors:
-Sarah-Ghiaie 
-Bailey-JJ
+Contributors:<br>
+Sarah-Ghiaie<br>
+Bailey-JJ<br>
 bacisthebest
 
 
