@@ -7,7 +7,6 @@ Bailey-JJ<br>
 bacisthebest
 
 
-Project Topic:<br> 
 This project’s two main objectives are to:<br> 
 (1) Reconstruct a phylogeny of the Family Cichlidae<br> 
 (2) Map feeding morphologies onto the constructed tree to investigate the evolution of these traits across the phylogeny. 
