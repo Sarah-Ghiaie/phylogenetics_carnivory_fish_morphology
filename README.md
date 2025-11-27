@@ -36,10 +36,10 @@ bacisthebest
 | **XML**       | Parsing XML metadata from online databases |
 | **httr**      | Handling HTTP requests when retrieving data |
 | **seqinr**    | Reading, writing, and manipulating FASTA sequences |
-| **ape**       | Core phylogenetics tools; tree handling and analysis |
+| **ape**       | Core phylogenetics tree handling and analysis |
 | **phytools**  | Ancestral state reconstruction and comparative methods |
 | **viridis**   | Colorblind-friendly color palettes for figures |
-| **tidyverse** | Data wrangling and visualization framework |
+| **tidyverse** | Data cleaning and visualization framework |
 
 ## Usage
 
