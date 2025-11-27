@@ -40,6 +40,9 @@ bacisthebest
 | **phytools**  | Ancestral state reconstruction and comparative methods |
 | **viridis**   | Colorblind-friendly color palettes for figures |
 | **tidyverse** | Data cleaning and visualization framework |
+| **evobiR**    | [insert description] |
+| **msaR**      | [insert description] |
+| **phangorn**  | [insert description] |
 
 ## Usage
 
