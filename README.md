@@ -24,7 +24,7 @@ bacisthebest
 |-----------------|------------------------|
 | **IQ-TREE / BEAST2** | Used for phylogenetic inference (ML or Bayesian) |
 | **FigTree** | Visualization and annotation of phylogenetic trees |
-| **R** | **See packages below |
+| **R/RStudio** | **See packages below |
 
 ### R Packages Used
 
@@ -43,7 +43,7 @@ bacisthebest
 
 ## Usage
 
-
+Files contained in the **scripts/** directory can be run in order. R and RStudio are required to run these scripts.
 
 ## Directory Structure
 
