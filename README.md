@@ -47,53 +47,13 @@ bacisthebest
 
 ## Directory Structure
 
-```markdown
-├── data
-│   ├── aligned
-│   │   ├── coi_68_align.fasta
-│   │   ├── cytb_68_align.fasta
-│   │   ├── nd2_68_align.fasta
-│   │   ├── nd5_68_align.fasta
-│   │   └── ptr_68_align.fasta
-│   ├── raw
-│   │   ├── Cichlid_COI.csv
-│   │   ├── Cichlid_cytb.csv
-│   │   ├── Cichlid_nd2.csv
-│   │   ├── Cichlid_nd5.csv
-│   │   ├── Cichlid_Ptr.csv
-│   │   ├── coi68.csv
-│   │   ├── cytb68.csv
-│   │   ├── nd268.csv
-│   │   ├── nd568.csv
-│   │   ├── ptr68.csv
-│   │   └── valid_taxa.csv
-│   └── trimmed
-│       ├── coi_68_trimmed_filled.fasta
-│       ├── cytb_68_trimmed_filled.fasta
-│       ├── nd2_68_trimmed_filled.fasta
-│       ├── nd5_68_trimmed_filled.fasta
-│       ├── ptr_68_trimmed_filled.fasta
-│       ├── species_supermatrix.fasta
-│       ├── species_supermatrix.fasta.bionj
-│       ├── species_supermatrix.fasta.ckp.gz
-│       ├── species_supermatrix.fasta.contree
-│       ├── species_supermatrix.fasta.iqtree
-│       ├── species_supermatrix.fasta.log
-│       ├── species_supermatrix.fasta.mldist
-│       ├── species_supermatrix.fasta.model.gz
-│       ├── species_supermatrix.fasta.splits.nex
-│       ├── species_supermatrix.fasta.treefile
-│       ├── species_supermatrix.fasta.ufboot
-│       └── species_supermatrix.partitions.csv
-├── dataset_activity
-├── draft_trees
-├── final_tree
-├── project_setup.sh
-├── README.md
-├── results
-│   └── beast_run
-└── scripts
-    ├── 5_gene_data_script.R
+| Sub-Directory | Content Description |
+|---------------|---------|
+| **data/** | Contains sub-directories: alignments/; raw/; supermatrix/; trimmed/ and all associated files. |
+| **results/** | Data manipulation and cleaning (part of tidyverse) |
+| **scripts/** | All R scripts needed to get project results |
+| **Dataset_Activity** | Easy access to files needed for this assignment submission |
+| **Draft_Trees** | Easy access to files needed for this assignment submission |
     ├── filling_nas_alignments.R
     ├── filtering_datasets.R
     ├── potential_functions.R
