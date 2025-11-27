@@ -50,8 +50,7 @@ bacisthebest
 | Sub-Directory | Content Description |
 |---------------|---------|
 | **data/** | Contains sub-directories: alignments/; raw/; supermatrix/; trimmed/ and all associated files. |
-| **results/** | Data manipulation and cleaning (part of tidyverse) |
-| **scripts/** | All R scripts needed to get project results |
+| **scripts/** | Contains all R scripts needed to get project results |
 | **Dataset_Activity** | Easy access to files needed for this assignment submission |
 | **Draft_Trees** | Easy access to files needed for this assignment submission |
 | **Final_Tree** | Easy access to files needed for final assignment submission |
