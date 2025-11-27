@@ -54,8 +54,3 @@ bacisthebest
 | **scripts/** | All R scripts needed to get project results |
 | **Dataset_Activity** | Easy access to files needed for this assignment submission |
 | **Draft_Trees** | Easy access to files needed for this assignment submission |
-    ├── filling_nas_alignments.R
-    ├── filtering_datasets.R
-    ├── potential_functions.R
-    └── pulling_sequence_data.R
-```
