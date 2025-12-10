@@ -2,6 +2,7 @@ library(evobiR)
 library(ape)
 library(msaR)
 library(phangorn)
+library(tools)
 
 # Load in the alignment files that were got from online MAFFT
 gene <- read.FASTA("./data/aligned/coi_68_align.fasta")
@@ -84,7 +85,7 @@ filled_alns <- lapply(alns, function(aln) {
 # Write filled FASTAs
 for (i in seq_along(filled_alns)) {
   out_path <- file.path("./data/raw/trimmed/filled/",
-                        paste0(tools::file_path_sans_ext(basename(files[i])), ".fasta"))
+                        paste0(file_path_sans_ext(basename(files[i])), ".fasta"))
   write_fasta_base(filled_alns[[i]], out_path)
   cat("Wrote:", out_path, "\n")
 }
