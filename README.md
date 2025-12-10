@@ -8,7 +8,7 @@ This project’s two main objectives are to:<br>
 ### Genes of Interest:
 (1) COI (cytochrome oxidase subunit 1)<br>
 (2) CYTB (cytochrome b)<br>
-(3) PTR<br>
+(3) PTR (Patch-Related)<br>
 (4) ND2 (NADH dehydrogenase subunit 2)<br>
 (5) ND5 (NADH dehydrogenase subunit 5)<br>
 
@@ -40,9 +40,9 @@ bacisthebest
 | **phytools**  | Ancestral state reconstruction and comparative methods |
 | **viridis**   | Colorblind-friendly color palettes for figures |
 | **tidyverse** | Data cleaning and visualization framework |
-| **evobiR**    | [insert description] |
-| **msaR**      | [insert description] |
-| **phangorn**  | [insert description] |
+| **evobiR**    | Collection of tools for evolutionary biology analyses, including sequence and phylogenetic workflows |
+| **msaR**      | Interactive visualization of multiple sequence alignments |
+| **phangorn**  | Phylogenetic inference and model testing |
 
 ## Usage
 
