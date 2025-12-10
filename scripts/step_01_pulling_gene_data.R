@@ -4,7 +4,7 @@ library(rentrez)
 library(XML)
 library(httr)
 library(seqinr)
-source("./scripts/potential_functions.R")
+source("./scripts/project_functions.R")
 
 # Defining Variables: ####
 set_entrez_key("d9b97feea308d7dbc357193e79a85721f808") # Lets us pull more stuff from NCBI without getting booted.
@@ -85,7 +85,7 @@ for (i in 1:nrow(valid_tax)) {
 }
 print("DONE")
 
-writeLines(as.character(coi_sequence), "./data/raw/metadata/coi_out.fasta")
+writeLines(as.character(coi_sequence), "./data/raw/coi_out.fasta")
 
 # This table will contain all species that had hits for COI
 # Creating a copy for saving
@@ -155,7 +155,7 @@ for (i in 1:nrow(valid_tax)) {
 }
 print("DONE")
 
-writeLines(as.character(ptr_sequence), "./data/raw/metadata/ptr_out.fasta")
+writeLines(as.character(ptr_sequence), "./data/raw/ptr_out.fasta")
 
 # This table will contain all species that had hits for Ptr
 # Creating a copy for saving
@@ -224,7 +224,7 @@ for (i in 1:nrow(valid_tax)) {
 }
 print("DONE")
 
-writeLines(as.character(cytb_sequence), "./data/raw/metadata/cytb_out.fasta")
+writeLines(as.character(cytb_sequence), "./data/raw/cytb_out.fasta")
 
 # This table will contain all species that had hits for Ptr
 # Creating a copy for saving
@@ -292,7 +292,7 @@ for (i in 1:nrow(valid_tax)) {
 }
 print("DONE")
 
-writeLines(as.character(nd2_sequence), "./data/raw/metadata/nd2_out.fasta")
+writeLines(as.character(nd2_sequence), "./data/raw/nd2_out.fasta")
 
 # This table will contain all species that had hits for ND2
 # Creating a copy for saving
@@ -362,7 +362,7 @@ for (i in 1:nrow(valid_tax)) {
 }
 print("DONE")
 
-writeLines(as.character(nd5_sequence), "./data/raw/metadata/nd5_out.fasta")
+writeLines(as.character(nd5_sequence), "./data/raw/nd5_out.fasta")
 
 # This table will contain all species that had hits for ND5
 # Creating a copy for saving
