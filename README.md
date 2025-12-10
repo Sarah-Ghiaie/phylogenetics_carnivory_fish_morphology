@@ -1,7 +1,7 @@
 # Cichlid Phylogeny: Mapping feeding strategies across taxa
 This repository contains the code, data, and documentation for a final project in BIOL 4300 - 001.<br>
 The project involves gathering publicly available genetic data, cleaning and aligning sequences, and generating a Bayesian phylogeny.<br>
-This project’s two main objectives are to:<br> 
+**This project’s two main objectives are to:**<br> 
 (1) Reconstruct a phylogeny of the Family Cichlidae<br> 
 (2) Map feeding strategies onto the constructed tree to investigate the evolution of these traits across the phylogeny. 
 
@@ -18,10 +18,21 @@ Sarah-Ghiaie<br>
 Bailey-JJ<br>
 bacisthebest
 
+### Project Interpretation
+Project presentation pdf is provided in the **Final_Tree/** directory. <br>
+
+**Key Results:** <br>
+(1) Lake Tanganyika has the greatest diversity in feeding strategy​ <br>
+(2) A generalist diet is likely the ancestral state​ <br>
+(3) River locations had more generalists​ <br>
+(4) Open waters had more carnivores and grazers​ <br>
+(5) Detritivores and micro-predators appear a lot less than other strategies <br>
+
 ## Tools & Software
 
 | Tool / Software | Packages / Description |
 |-----------------|------------------------|
+| **MAFFT** | Online tool used to align sequences |
 | **IQ-TREE / BEAST2** | Used for phylogenetic inference (ML or Bayesian) |
 | **FigTree** | Visualization and annotation of phylogenetic trees |
 | **R/RStudio** | **See packages below |
