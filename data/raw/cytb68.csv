@@ -1,0 +1,69 @@
+"taxid","species_name","accession_num","seq_name","seq_len"
+3035822,"Rubricatochromis bimaculatus","AF370635","Hemichromis bimaculatus cytochrome b (cytb) gene, complete cds; mitochondrial gene for mitochondrial product",1138
+2926661,"Pseudetroplus maculatus","AF370625","Etroplus maculatus cytochrome b (cytb) gene, complete cds; mitochondrial gene for mitochondrial product",1138
+2591259,"Ptychochromis oligacanthus","AF370630","Ptychochromis oligocantus cytochrome b (cytb) gene, partial cds; mitochondrial gene for mitochondrial product",1138
+795476,"Teleogramma depressa","HM101461","Teleogramma depressa voucher c17 cytochrome b (cytb) gene, partial cds; mitochondrial",1102
+762061,"Rubricatochromis letourneuxi","PQ014274","Rubricatochromis letourneuxi mitochondrion, complete genome",16698
+745802,"Heros efasciatus","DQ010102","Heros appendiculatus voucher AM-175 cytochrome b (cytb) gene, partial cds; mitochondrial",1135
+673032,"Vieja bifasciata","KU854737","Vieja bifasciata isolate MK18 cytochrome b (cytb) gene, partial cds; mitochondrial",1052
+665408,"Congolapia bilineata","JX156995","Tilapia bilineata isolate A01 cytochrome b (cytb) gene, partial cds; mitochondrial",405
+661982,"Rocio octofasciata","NC_033548","Rocio octofasciata mitochondrion, complete genome",16539
+407193,"Thorichthys maculipinnis","PV178019","Thorichthys maculipinnis isolate Telli_Motzorongo_02 cytochrome b (cytb) gene, partial cds; mitochondrial",411
+329337,"Nandopsis tetracanthus","AY987858","Nandopsis tetracanthus voucher Cuba-10 cytochrome b (cytb) gene, complete cds; mitochondrial",1137
+318743,"Mayaheros urophthalmus","AY050624","Nandopsis urophthalma cytochrome b (cytb) gene, complete cds; mitochondrial gene for mitochondrial product",1137
+293472,"Hemichromis elongatus","KX347647","Hemichromis elongatus cytochrome b (cytb) gene, partial cds; mitochondrial",1011
+284740,"Mikrogeophagus ramirezi","NC_031439","Mikrogeophagus ramirezi voucher MikRam_run4RL4 mitochondrion, complete genome",16526
+272725,"Neolamprologus modestus","HM049954","Neolamprologus modestus cytochrome b (cytb) gene, complete cds; mitochondrial",1141
+247411,"Amphilophus trimaculatus","OQ561445","Amphilophus trimaculatus isolate MT33 cytochrome b (cytb) gene, partial cds; mitochondrial",381
+244514,"Petrochromis polyodon","AY301944","Petrochromis polyodon 'blue-fin' isolate 693-T1992 cytochrome b (cytb) gene, partial cds; mitochondrial",402
+244511,"Limnotilapia dardennii","EF679281","Limnotilapia dardennii isolate 265 cytochrome b (cytB) gene, complete cds; mitochondrial",1149
+242820,"Andinoacara rivulatus","NC_025671","Andinoacara rivulatus mitochondrion, complete genome",16585
+238224,"Paretroplus maculatus","NC_011177","Paretroplus maculatus mitochondrion, complete genome",16486
+238217,"Ptychochromis grandidieri","MW630972","Ptychochromis grandidieri cytochrome b (cytb) gene, partial cds; mitochondrial",1140
+219385,"Bathybates fasciatus","EF679268","Bathybates fasciatus isolate 249 cytochrome b (cytB) gene, complete cds; mitochondrial",1149
+219373,"Nanochromis parilus","KX347653","Nanochromis parilus cytochrome b (cytb) gene, partial cds; mitochondrial",1112
+172535,"Parachromis managuensis","NC_026918","Parachromis managuensis mitochondrion, complete genome",16526
+172532,"Hypselecara temporalis","NC_011168","Hypselecara temporalis mitochondrion, complete genome",16544
+172524,"Trichromis salvini","MT702729","Trichromis salvini isolate SLU-TC4871 cytochrome b (cytb) gene, partial cds; mitochondrial",1098
+172522,"Andinoacara pulcher","NC_033547","Andinoacara pulcher mitochondrion, complete genome",16513
+167848,"Pseudosimochromis curvifrons","AY301948","Pseudosimochromis curvifrons isolate 1346-T1992 cytochrome b (cytb) gene, partial cds; mitochondrial",402
+167846,"Plecodus straeleni","EF679290","Plecodus straeleni isolate 315 cytochrome b (cytB) gene, complete cds; mitochondrial",1149
+158894,"Oreochromis andersonii","NC_037019","Oreochromis andersonii mitochondrion, complete genome",16642
+158779,"Pelmatolapia mariae","KY582463","Pelmatolapia mariae isolate T1 cytochrome b (cytb) gene, partial cds; mitochondrial",604
+143646,"Stomatepia mariae","AJ844926","Stomatepia mariae mitochondrial partial cytb gene for cytochrome b and partial tRNA-Pro gene, specimen voucher CAM01 144",1212
+119479,"Herichthys labridens","AY323998","Cichlasoma labridens isolate Hlab29033 cytochrome b (cytb) gene, complete cds; mitochondrial",1137
+96998,"Petenia splendida","NC_024835","Petenia splendida mitochondrion, complete genome",16518
+81351,"Retroculus xinguensis","AF370641","Retroculus xinguensis cytochrome b (cytb) gene, partial cds; mitochondrial gene for mitochondrial product",1138
+81341,"Satanoperca jurupari","AF370664","Satanoperca jurupari cytochrome b (cytb) gene, partial cds; mitochondrial gene for mitochondrial product",1138
+81336,"Cichla temensis","NC_084244","Cichla temensis mitochondrion, complete genome",16530
+80772,"Paratilapia polleni","NC_011170","Paratilapia polleni mitochondrion, complete genome",16543
+74137,"Uaru amphiacanthoides","NC_033550","Uaru amphiacanthoides mitochondrion, complete genome",16549
+74121,"Hoplarchus psittacus","AF370673","Hoplarchus psittacus cytochrome b (cytb) gene, complete cds; mitochondrial gene for mitochondrial product",1138
+73563,"Heterochromis multidens","AF370636","Heterochromis multidens cytochrome b (cytb) gene, partial cds; mitochondrial gene for mitochondrial product",829
+64551,"Tilapia sparrmanii","EF470896","Tilapia sparrmanii cytochrome b (cytb) gene, partial cds; mitochondrial",370
+64549,"Coptodon guineensis","HE792806","Tilapia guineensis partial cytb gene for cytochrome b, isolate TiGu12",434
+63165,"Caquetaia kraussii","AF009938","Caquetaia kraussi cytochrome b (cytb) gene, mitochondrial gene encoding mitochondrial protein, complete cds",1137
+63160,"Amatitlania sajica","AF009925","Archocentrus sajica cytochrome b (cytb) gene, mitochondrial gene encoding mitochondrial protein, complete cds",1137
+61819,"Amphilophus citrinellus","NC_023827","Amphilophus citrinellus mitochondrion, complete genome",16522
+61805,"Thorichthys meeki","PV178024","Thorichthys meeki isolate Tmeek_penitas_04 cytochrome b (cytb) gene, partial cds; mitochondrial",407
+52954,"Eretmodus cyanostictus","EF679276","Eretmodus cyanostictus isolate 161 cytochrome b (cytB) gene, complete cds; mitochondrial",1149
+51791,"Cyprichromis leptosoma","EF679275","Cyprichromis leptosoma isolate 87 cytochrome b (cytB) gene, partial cds; mitochondrial",1134
+50613,"Sarotherodon melanotheron","NC_015611","Sarotherodon melanotheron mitochondrion, complete genome",16627
+34808,"Neolamprologus toae","KJ187221","Neolamprologus toae voucher NRM:51539 cytochrome b (cytb) gene, partial cds; mitochondrial",948
+34807,"Variabilichromis moorii","AF438795","Neolamprologus moorii clone 01 cytochrome b (cytb) gene, partial cds; mitochondrial gene for mitochondrial product",402
+34792,"Altolamprologus calvus","FJ706630","Altolamprologus calvus isolate Acalvus_1925_10_95 cytochrome b (cytb) gene, partial cds; mitochondrial",948
+32492,"Cardiopharynx schoutedeni","AY337850","Cardiopharynx schoutedeni isolate 1851 cytochrome b (CYTB) gene, partial cds; mitochondrial gene for mitochondrial product",402
+32488,"Boulengerochromis microlepis","EF679267","Boulengerochromis microlepis isolate 306 cytochrome b (cytB) gene, complete cds; mitochondrial",1149
+30882,"Cyrtocara moorii","AF370634","Cyrtocara moorii cytochrome b (cytb) gene, partial cds; mitochondrial gene for mitochondrial product",1138
+28827,"Pelvicachromis pulcher","MZ357707","Pelvicachromis pulcher mitochondrion, complete genome",17196
+27783,"Cyphotilapia frontosa","EF679274","Cyphotilapia frontosa isolate 246 cytochrome b (cytB) gene, complete cds; mitochondrial",1149
+27755,"Ophthalmotilapia ventralis","KX347655","Ophthalmotilapia ventralis cytochrome b (cytb) gene, partial cds; mitochondrial",1141
+27733,"Bathybates ferox","AY663758","Bathybates ferox isolate 1898 cytochrome b (cytb) gene, partial cds; mitochondrial",402
+27731,"Aulonocranus dewindti","AY337845","Aulonocranus dewindti isolate 1701 cytochrome b (CYTB) gene, partial cds; mitochondrial gene for mitochondrial product",402
+8150,"Tropheus moorii","NC_018815","Tropheus moorii mitochondrion, complete genome",16590
+8148,"Tropheus duboisi","NC_009063","Tropheus duboisi mitochondrion, complete genome",16598
+8144,"Sarotherodon galilaeus","NC_056897","Sarotherodon galilaeus mitochondrion, complete genome",16630
+8142,"Oreochromis tanganicae","MK951678","Oreochromis tanganicae mitochondrion, complete genome",16632
+8130,"Coptodon zillii","PQ932612","Coptodon zillii mitochondrion, complete genome",16554
+8128,"Oreochromis niloticus","NC_013663","Oreochromis niloticus mitochondrion, complete genome",16627
+8117,"Herichthys cyanoguttatus","NC_033546","Herichthys cyanoguttatus mitochondrion, complete genome",16540

@@ -1,0 +1,258 @@
+IQ-TREE multicore version 2.0.7 for Linux 64-bit built Apr  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    bailey-ASUSLaptop-Q540VJ (AVX2, FMA3, 15 GB RAM)
+Command: iqtree2 -s ../species_supermatrix.fasta -m MFP -bb 1000 -alrt 1000 -bnni -nt AUTO -redo
+Seed:    17821 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Nov  1 13:03:14 2025
+Kernel:  AVX+FMA - auto-detect threads (20 CPU cores detected)
+
+Reading alignment file ../species_supermatrix.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 69 sequences with 4342 columns, 2185 distinct patterns
+1776 parsimony-informative, 349 singleton sites, 2217 constant sites
+                              Gap/Ambiguity  Composition  p-value
+   1  Altolamprologus_calvus         39.87%    passed     90.97%
+   2  Amatitlania_sajica             63.04%    failed      0.04%
+   3  Amphilophus_citrinellus         0.00%    failed      3.56%
+   4  Amphilophus_trimaculatus       63.29%    failed      1.66%
+   5  Andinoacara_pulcher             0.00%    failed      0.06%
+   6  Andinoacara_rivulatus           1.50%    failed      0.01%
+   7  Aulonocranus_dewindti          38.28%    passed     51.17%
+   8  Bathybates_fasciatus           37.72%    passed     60.73%
+   9  Bathybates_ferox               38.28%    passed     27.32%
+  10  Boulengerochromis_microlepis    0.00%    passed     53.93%
+  11  Caquetaia_kraussii             63.43%    failed      0.44%
+  12  Cardiopharynx_schoutedeni      38.28%    passed     64.16%
+  13  Cichla_temensis                 3.92%    failed      0.00%
+  14  Congolapia_bilineata           39.08%    passed     20.86%
+  15  Coptodon_guineensis            42.10%    passed      8.43%
+  16  Coptodon_zillii                 1.98%    passed     41.31%
+  17  Cyphotilapia_frontosa          37.72%    passed     61.68%
+  18  Cyprichromis_leptosoma          0.00%    passed     44.93%
+  19  Cyrtocara_moorii               37.75%    passed     41.06%
+  20  Eretmodus_cyanostictus         37.75%    failed      3.33%
+  21  Hemichromis_elongatus          40.00%    failed      1.39%
+  22  Herichthys_cyanoguttatus        1.57%    failed      0.10%
+  23  Herichthys_labridens            3.02%    failed      0.53%
+  24  Heros_efasciatus               65.68%    failed      0.05%
+  25  Heterochromis_multidens        38.07%    passed     58.75%
+  26  Hoplarchus_psittacus           37.77%    passed     39.86%
+  27  Hypselecara_temporalis          0.44%    passed     28.21%
+  28  Limnotilapia_dardennii         37.72%    passed     50.87%
+  29  Mayaheros_urophthalmus         61.81%    failed      0.08%
+  30  Mikrogeophagus_ramirezi         0.00%    passed     37.70%
+  31  Nandopsis_tetracanthus         62.25%    failed      0.14%
+  32  Nanochromis_parilus            40.07%    passed      5.99%
+  33  Neolamprologus_modestus        37.72%    passed     37.75%
+  34  Neolamprologus_toae            37.72%    passed     49.80%
+  35  Ophthalmotilapia_ventralis     37.72%    passed     51.93%
+  36  Oreochromis_andersonii          0.00%    passed     25.51%
+  37  Oreochromis_niloticus           5.23%    passed     39.75%
+  38  Oreochromis_tanganicae          0.00%    passed     18.08%
+  39  Parachromis_managuensis         2.03%    failed      1.02%
+  40  Paratilapia_polleni             0.02%    passed     37.09%
+  41  Paretroplus_maculatus           0.00%    passed     13.21%
+  42  Pelmatolapia_mariae            45.42%    passed     42.77%
+  43  Pelvicachromis_pulcher          0.00%    passed     28.30%
+  44  Petenia_splendida               0.00%    failed      3.45%
+  45  Petrochromis_polyodon          39.15%    passed     62.01%
+  46  Planiliza                      86.11%    passed     55.23%
+  47  Plecodus_straeleni             37.72%    passed     18.12%
+  48  Pseudetroplus_maculatus         0.02%    passed     31.51%
+  49  Pseudosimochromis_curvifrons   38.39%    passed     60.56%
+  50  Ptychochromis_grandidieri      63.22%    failed      0.48%
+  51  Ptychochromis_oligacanthus     62.94%    failed      0.27%
+  52  Retroculus_xinguensis          65.89%    failed      0.02%
+  53  Rocio_octofasciata              2.05%    failed      3.25%
+  54  Rubricatochromis_bimaculatus   39.52%    passed     72.48%
+  55  Rubricatochromis_letourneuxi    0.00%    passed     58.15%
+  56  Sarotherodon_galilaeus          2.81%    passed     19.92%
+  57  Sarotherodon_melanotheron       0.00%    passed     10.27%
+  58  Satanoperca_jurupari           39.68%    passed     11.34%
+  59  Stomatepia_mariae              39.91%    passed     63.75%
+  60  Teleogramma_depressa           42.47%    failed      0.01%
+  61  Thorichthys_maculipinnis       38.46%    passed     20.49%
+  62  Thorichthys_meeki               2.42%    failed      2.32%
+  63  Tilapia_sparrmanii             38.97%    passed     18.19%
+  64  Trichromis_salvini             64.62%    failed      0.24%
+  65  Tropheus_duboisi                0.00%    passed     71.01%
+  66  Tropheus_moorii                 0.00%    passed     91.84%
+  67  Uaru_amphiacanthoides           1.57%    passed     12.33%
+  68  Variabilichromis_moorii        39.18%    passed      6.13%
+  69  Vieja_bifasciata               39.45%    passed     34.07%
+WARNING: 11 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                          27.87%  23 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.013 seconds
+Measuring multi-threading efficiency up to 20 CPU cores
+Increase to 10 rounds for branch lengths
+101 trees examined
+Threads: 1 / Time: 20.156 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -78169
+Threads: 2 / Time: 13.166 sec / Speedup: 1.531 / Efficiency: 77% / LogL: -78169
+Threads: 3 / Time: 11.161 sec / Speedup: 1.806 / Efficiency: 60% / LogL: -78169
+Threads: 4 / Time: 15.084 sec / Speedup: 1.336 / Efficiency: 33% / LogL: -78169
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -57974.868
+2. Current log-likelihood: -57972.322
+3. Current log-likelihood: -57971.040
+Optimal log-likelihood: -57970.018
+Rate parameters:  A-C: 2.09443  A-G: 13.10741  A-T: 1.84399  C-G: 0.63111  C-T: 14.01430  G-T: 1.00000
+Base frequencies:  A: 0.256  C: 0.313  G: 0.155  T: 0.275
+Proportion of invariable sites: 0.451
+Gamma shape alpha: 0.812
+Parameters optimization took 3 rounds (0.268 sec)
+Time for fast ML tree search: 1.433 seconds
+
+NOTE: ModelFinder requires 57 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 4342) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         68237.553    143 136761.106   136770.917   137672.887
+  2  GTR+F+I       60410.736    144 121109.473   121119.423   122027.630
+  3  GTR+F+G4      58273.961    144 116835.922   116845.872   117754.079
+  4  GTR+F+I+G4    57969.543    145 116229.085   116239.176   117153.618
+  5  GTR+F+R2      58732.903    145 117755.806   117765.897   118680.339
+  6  GTR+F+R3      58043.930    147 116381.860   116392.235   117319.145
+  7  GTR+F+R4      57922.860    149 116143.720   116154.383   117093.757
+  8  GTR+F+R5      57891.617    151 116085.234   116096.190   117048.024
+  9  GTR+F+R6      57891.654    153 116089.308   116100.560   117064.850
+ 21  SYM+R5        58279.178    148 116854.357   116864.875   117798.018
+ 34  TVM+F+R5      57895.622    150 116091.244   116102.053   117047.658
+ 47  TVMe+R5       58535.955    147 117365.910   117376.285   118303.196
+ 60  TIM3+F+R5     58010.260    149 116318.520   116329.183   117268.557
+ 73  TIM3e+R5      58703.587    146 117699.174   117709.406   118630.083
+ 86  TIM2+F+R5     57895.733    149 116089.467   116100.130   117039.504
+ 99  TIM2e+R5      58288.231    146 116868.462   116878.694   117799.371
+112  TIM+F+R5      57992.264    149 116282.527   116293.191   117232.565
+125  TIMe+R5       58637.918    146 117567.836   117578.068   118498.745
+138  TPM3u+F+R5    58012.970    148 116321.941   116332.459   117265.602
+151  TPM3+F+R5     58012.973    148 116321.946   116332.464   117265.607
+164  TPM2u+F+R5    57899.843    148 116095.687   116106.205   117039.348
+177  TPM2+F+R5     57899.841    148 116095.682   116106.201   117039.344
+190  K3Pu+F+R5     57995.500    148 116286.999   116297.518   117230.661
+203  K3P+R5        58918.692    145 118127.384   118137.474   119051.917
+216  TN+F+R5       58010.423    148 116316.846   116327.365   117260.508
+229  TNe+R5        58704.102    145 117698.204   117708.294   118622.737
+242  HKY+F+R5      58013.222    147 116320.443   116330.818   117257.729
+255  K2P+R5        58981.531    144 118251.062   118261.012   119169.219
+268  F81+F+R5      63058.447    146 126408.894   126419.126   127339.803
+281  JC+R5         64137.771    143 128561.542   128571.352   129473.323
+Akaike Information Criterion:           GTR+F+R5
+Corrected Akaike Information Criterion: GTR+F+R5
+Bayesian Information Criterion:         TPM2+F+R5
+Best-fit model: TPM2+F+R5 chosen according to BIC
+
+All model information printed to ../species_supermatrix.fasta.model.gz
+CPU time for ModelFinder: 186.131 seconds (0h:3m:6s)
+Wall-clock time for ModelFinder: 94.656 seconds (0h:1m:34s)
+Generating 1000 samples for ultrafast bootstrap (seed: 17821)...
+
+NOTE: 32 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -57899.841
+Optimal log-likelihood: -57899.840
+Rate parameters:  A-C: 2.68373  A-G: 18.51180  A-T: 2.68373  C-G: 1.00000  C-T: 18.51180  G-T: 1.00000
+Base frequencies:  A: 0.256  C: 0.313  G: 0.155  T: 0.275
+Site proportion and rates:  (0.536,0.016) (0.135,0.394) (0.158,1.457) (0.145,3.425) (0.026,8.120)
+Parameters optimization took 1 rounds (0.070 sec)
+Computing ML distances based on estimated model parameters... 0.057 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -58527.895
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.340 second
+Computing log-likelihood of 98 initial trees ... 1.888 seconds
+Current best score: -57899.840
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -57899.835
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -57893.878
+Iteration 10 / LogL: -57902.131 / Time: 0h:0m:7s
+Iteration 20 / LogL: -57902.086 / Time: 0h:0m:10s
+Finish initializing candidate tree set (6)
+Current best tree score: -57893.878 / CPU time: 10.436
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -57891.827
+Iteration 30 / LogL: -57891.936 / Time: 0h:0m:14s (0h:0m:39s left)
+Iteration 40 / LogL: -57892.091 / Time: 0h:0m:17s (0h:0m:31s left)
+Iteration 50 / LogL: -57892.640 / Time: 0h:0m:21s (0h:0m:25s left)
+Iteration 60 / LogL: -57898.232 / Time: 0h:0m:25s (0h:0m:20s left)
+Iteration 70 / LogL: -57898.757 / Time: 0h:0m:28s (0h:0m:16s left)
+Iteration 80 / LogL: -57891.878 / Time: 0h:0m:31s (0h:0m:11s left)
+Iteration 90 / LogL: -57898.964 / Time: 0h:0m:35s (0h:0m:7s left)
+Iteration 100 / LogL: -57898.733 / Time: 0h:0m:38s (0h:0m:3s left)
+Iteration 110 / LogL: -57891.972 / Time: 0h:0m:41s (0h:0m:-1s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 989 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 110 ITERATIONS / Time: 0h:2m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -57891.827
+Optimal log-likelihood: -57891.824
+Rate parameters:  A-C: 2.73289  A-G: 18.83621  A-T: 2.73289  C-G: 1.00000  C-T: 18.83621  G-T: 1.00000
+Base frequencies:  A: 0.256  C: 0.313  G: 0.155  T: 0.275
+Site proportion and rates:  (0.537,0.016) (0.135,0.397) (0.156,1.457) (0.145,3.406) (0.027,8.014)
+Parameters optimization took 1 rounds (0.087 sec)
+BEST SCORE FOUND : -57891.824
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+1.518 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file ../species_supermatrix.fasta.splits.nex
+Total tree length: 6.889
+
+Total number of iterations: 110
+CPU time used for tree search: 242.135 sec (0h:4m:2s)
+Wall-clock time used for tree search: 120.296 sec (0h:2m:0s)
+Total CPU time used: 247.312 sec (0h:4m:7s)
+Total wall-clock time used: 122.348 sec (0h:2m:2s)
+UFBoot trees printed to ../species_supermatrix.fasta.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file ../species_supermatrix.fasta.splits.nex...
+69 taxa and 298 splits.
+Consensus tree written to ../species_supermatrix.fasta.contree
+Reading input trees file ../species_supermatrix.fasta.contree
+Log-likelihood of consensus tree: -57891.824
+
+Analysis results written to: 
+  IQ-TREE report:                ../species_supermatrix.fasta.iqtree
+  Maximum-likelihood tree:       ../species_supermatrix.fasta.treefile
+  Likelihood distances:          ../species_supermatrix.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          ../species_supermatrix.fasta.splits.nex
+  Consensus tree:                ../species_supermatrix.fasta.contree
+  UFBoot trees:                  ../species_supermatrix.fasta.ufboot
+  Screen log file:               ../species_supermatrix.fasta.log
+
+Date and Time: Sat Nov  1 13:06:51 2025

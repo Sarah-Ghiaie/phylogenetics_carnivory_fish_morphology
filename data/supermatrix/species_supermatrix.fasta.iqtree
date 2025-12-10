@@ -1,0 +1,443 @@
+IQ-TREE 2.0.7 built Apr  1 2024
+
+Input file name: ../species_supermatrix.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 17821
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 69 sequences with 4342 nucleotide sites
+Number of constant sites: 2217 (= 51.0594% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2217 (= 51.0594% of all sites)
+Number of parsimony informative sites: 1776
+Number of distinct site patterns: 2185
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TPM2+F+R5
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TPM2+F+R5        -57899.841  116095.682 -  0.00411  116106.201 -  0.00508  117039.344 +    0.339
+TPM2u+F+R5       -57899.843  116095.687 -   0.0041  116106.205 -  0.00507  117039.348 +    0.338
+TIM2+F+R5        -57895.733  116089.467 +   0.0919  116100.130 +    0.106  117039.504 +    0.313
+TVM+F+R5         -57895.622  116091.244 -   0.0378  116102.053 -   0.0404  117047.658 -  0.00531
+GTR+F+R5         -57891.617  116085.234 +    0.763  116096.190 +    0.758  117048.024 -  0.00442
+GTR+F+R6         -57891.654  116089.308 +   0.0995  116100.560 +   0.0853  117064.850 - 9.81e-07
+GTR+F+R4         -57922.860  116143.720 - 1.52e-13  116154.383 - 1.75e-13  117093.757 - 5.18e-13
+GTR+F+I+G4       -57969.543  116229.085 - 4.42e-32  116239.176 - 6.77e-32  117153.618 -  5.2e-26
+K3Pu+F+R5        -57995.500  116286.999 - 1.17e-44  116297.518 - 1.45e-44  117230.661 - 9.69e-43
+TIM+F+R5         -57992.264  116282.527 -  1.1e-43  116293.191 - 1.26e-43  117232.565 - 3.74e-43
+HKY+F+R5         -58013.222  116320.443 - 6.42e-52  116330.818 - 8.53e-52  117257.729 - 1.28e-48
+TN+F+R5          -58010.423  116316.846 - 3.88e-51  116327.365 -  4.8e-51  117260.508 -  3.2e-49
+TPM3u+F+R5       -58012.970  116321.941 - 3.03e-52  116332.459 - 3.76e-52  117265.602 - 2.51e-50
+TPM3+F+R5        -58012.973  116321.946 - 3.03e-52  116332.464 - 3.75e-52  117265.607 -  2.5e-50
+TIM3+F+R5        -58010.260  116318.520 - 1.68e-51  116329.183 - 1.93e-51  117268.557 - 5.72e-51
+GTR+F+R3         -58043.930  116381.860 - 2.96e-65  116392.235 - 3.93e-65  117319.145 - 5.92e-62
+GTR+F+G4         -58273.961  116835.922 - 7.46e-164  116845.872 - 1.23e-163  117754.079 - 2.13e-156
+SYM+R5           -58279.178  116854.357 - 7.4e-168  116864.875 - 9.16e-168  117798.018 - 6.11e-166
+TIM2e+R5         -58288.231  116868.462 - 6.41e-171  116878.694 - 9.15e-171  117799.371 - 3.11e-166
+TVMe+R5          -58535.955  117365.910 - 6.12e-279  117376.285 - 8.14e-279  118303.196 - 1.23e-275
+TIMe+R5          -58637.918  117567.836 - 8.89e-323  117578.068 - 1.24e-322  118498.745 - 4.22e-318
+TNe+R5           -58704.102  117698.204 -        0  117708.294 -        0  118622.737 -        0
+TIM3e+R5         -58703.587  117699.174 -        0  117709.406 -        0  118630.083 -        0
+GTR+F+R2         -58732.903  117755.806 -        0  117765.897 -        0  118680.339 -        0
+K3P+R5           -58918.692  118127.384 -        0  118137.474 -        0  119051.917 -        0
+K2P+R5           -58981.531  118251.062 -        0  118261.012 -        0  119169.219 -        0
+GTR+F+I          -60410.736  121109.473 -        0  121119.423 -        0  122027.630 -        0
+F81+F+R5         -63058.447  126408.894 -        0  126419.126 -        0  127339.803 -        0
+JC+R5            -64137.771  128561.542 -        0  128571.352 -        0  129473.323 -        0
+GTR+F            -68237.553  136761.106 -        0  136770.917 -        0  137672.887 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TPM2+F+R5
+
+Rate parameter R:
+
+  A-C: 2.7329
+  A-G: 18.8362
+  A-T: 2.7329
+  C-G: 1.0000
+  C-T: 18.8362
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2564
+  pi(C) = 0.3131
+  pi(G) = 0.1552
+  pi(T) = 0.2753
+
+Rate matrix Q:
+
+  A   -0.7877    0.1487    0.5082    0.1308
+  C    0.1218     -1.05   0.02698    0.9012
+  G    0.8393   0.05442   -0.9416   0.04784
+  T    0.1218     1.025   0.02698    -1.174
+
+Model of rate heterogeneity: FreeRate with 5 categories
+Site proportion and rates:  (0.537,0.01623) (0.1348,0.3972) (0.1561,1.457) (0.1452,3.406) (0.02694,8.014)
+
+ Category  Relative_rate  Proportion
+  1         0.01623        0.537
+  2         0.3972         0.1348
+  3         1.457          0.1561
+  4         3.406          0.1452
+  5         8.014          0.02694
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -57891.8242 (s.e. 1036.8204)
+Unconstrained log-likelihood (without tree): -27179.8162
+Number of free parameters (#branches + #model parameters): 148
+Akaike information criterion (AIC) score: 116079.6484
+Corrected Akaike information criterion (AICc) score: 116090.1669
+Bayesian information criterion (BIC) score: 117023.3098
+
+Total tree length (sum of branch lengths): 6.8889
+Sum of internal branch lengths: 2.0015 (29.0542% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Altolamprologus_calvus' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++---Altolamprologus_calvus
+|
+|                                                                        +---Amatitlania_sajica
+|                                                                     +--| (83.7/84)
+|                                                                     |  +--Parachromis_managuensis
+|                                                                  +--| (71.9/72)
+|                                                                  |  |  +--Amphilophus_citrinellus
+|                                                                  |  +--| (98.8/100)
+|                                                                  |     +--Amphilophus_trimaculatus
+|                                                               +--| (97.4/99)
+|                                                               |  |   +--Mayaheros_urophthalmus
+|                                                               |  +---| (100/100)
+|                                                               |      +--Petenia_splendida
+|                                                            +--| (87.7/96)
+|                                                            |  +---------Caquetaia_kraussii
+|                                                         +--| (74.7/78)
+|                                                         |  +-------Rocio_octofasciata
+|                                                      +--| (75.8/83)
+|                                                      |  +-------Nandopsis_tetracanthus
+|                                                   +--| (99.8/98)
+|                                                   |  |        +--Herichthys_cyanoguttatus
+|                                                   |  |     +--| (99.9/100)
+|                                                   |  |     |  +---Herichthys_labridens
+|                                                   |  |  +--| (99.8/99)
+|                                                   |  |  |  +----Vieja_bifasciata
+|                                                   |  +--| (99.8/100)
+|                                                   |     |     +-----Thorichthys_maculipinnis
+|                                                   |     |  +--| (99.7/100)
+|                                                   |     |  |  +---Thorichthys_meeki
+|                                                   |     +--| (42.8/73)
+|                                                   |        +---------Trichromis_salvini
+|                                                +--| (100/100)
+|                                                |  |  +----Heros_efasciatus
+|                                                |  +--| (96.8/98)
+|                                                |     +-----Uaru_amphiacanthoides
+|                                             +--| (99.9/100)
+|                                             |  |  +--------Hoplarchus_psittacus
+|                                             |  +--| (99.3/100)
+|                                             |     +------Hypselecara_temporalis
+|                                          +--| (90.9/92)
+|                                          |  |               +-------Andinoacara_pulcher
+|                                          |  +---------------| (100/100)
+|                                          |                  +---------Andinoacara_rivulatus
+|                                       +--| (97.5/95)
+|                                       |  |    +---------------Mikrogeophagus_ramirezi
+|                                       |  +----| (99.7/100)
+|                                       |       +---------------Satanoperca_jurupari
+|                                    +--| (87.8/86)
+|                                    |  +-----------Cichla_temensis
+|                                 +--| (98.7/95)
+|                                 |  +-----------------------Retroculus_xinguensis
+|                              +--| (84.7/83)
+|                              |  |     +-----------------Paratilapia_polleni
+|                              |  |  +--| (80.4/74)
+|                              |  |  |  |                  +--Ptychochromis_grandidieri
+|                              |  |  |  +------------------| (100/100)
+|                              |  |  |                     +--Ptychochromis_oligacanthus
+|                              |  +--| (91/85)
+|                              |     |     +-------------Paretroplus_maculatus
+|                              |     |  +--| (82.5/94)
+|                              |     |  |  +--------------------------Pseudetroplus_maculatus
+|                              |     +--| (93.4/73)
+|                              |        +-------------------------Planiliza
+|                     +--------| (100/100)
+|                     |        +-------------------Heterochromis_multidens
+|                 +---| (99.8/100)
+|                 |   |             +-----Hemichromis_elongatus
+|                 |   |  +----------| (100/100)
+|                 |   |  |          |                 +**Rubricatochromis_bimaculatus
+|                 |   |  |          +-----------------| (100/100)
+|                 |   |  |                            +---Rubricatochromis_letourneuxi
+|                 |   +--| (23.2/45)
+|                 |      |         +---------------------Nanochromis_parilus
+|                 |      |    +----| (83.7/84)
+|                 |      |    |    +------------------------Pelvicachromis_pulcher
+|                 |      +----| (96.9/100)
+|                 |           +---------------------Teleogramma_depressa
+|              +--| (82.3/77)
+|              |  |    +----Coptodon_guineensis
+|              |  +----| (100/100)
+|              |       +---Coptodon_zillii
+|           +--| (72.9/46)
+|           |  |        +--Oreochromis_andersonii
+|           |  |     +--| (78.2/76)
+|           |  |     |  +--Oreochromis_tanganicae
+|           |  |  +--| (100/100)
+|           |  |  |  +--Oreochromis_niloticus
+|           |  +--| (99.9/100)
+|           |     |     +--Sarotherodon_galilaeus
+|           |     |  +--| (100/100)
+|           |     |  |  +--Stomatepia_mariae
+|           |     +--| (97.4/97)
+|           |        +--Sarotherodon_melanotheron
+|        +--| (97.7/99)
+|        |  |     +-----Congolapia_bilineata
+|        |  |  +--| (95.6/98)
+|        |  |  |  +-----Tilapia_sparrmanii
+|        |  +--| (45.5/45)
+|        |     +------Pelmatolapia_mariae
+|     +--| (90.1/94)
+|     |  +---Boulengerochromis_microlepis
+|  +--| (99.8/100)
+|  |  |    +--Bathybates_fasciatus
+|  |  +----| (100/100)
+|  |       +--Bathybates_ferox
++--| (100/100)
+|  |          +--Aulonocranus_dewindti
+|  |     +----| (100/100)
+|  |     |    |  +--Cardiopharynx_schoutedeni
+|  |     |    +--| (31/63)
+|  |     |       +--Ophthalmotilapia_ventralis
+|  |  +--| (96.5/98)
+|  |  |  |     +--Cyphotilapia_frontosa
+|  |  |  |  +--| (97.2/95)
+|  |  |  |  |  |  +--Cyrtocara_moorii
+|  |  |  |  |  +--| (100/100)
+|  |  |  |  |     |           +--Limnotilapia_dardennii
+|  |  |  |  |     |        +--| (99.6/100)
+|  |  |  |  |     |        |  +--Pseudosimochromis_curvifrons
+|  |  |  |  |     |     +--| (61.8/65)
+|  |  |  |  |     |     |  +--Petrochromis_polyodon
+|  |  |  |  |     |  +--| (97.2/99)
+|  |  |  |  |     |  |  +--Tropheus_duboisi
+|  |  |  |  |     +--| (94.6/96)
+|  |  |  |  |        +--Tropheus_moorii
+|  |  |  +--| (78.3/65)
+|  |  |     |  +---Cyprichromis_leptosoma
+|  |  |     +--| (92.3/91)
+|  |  |        +---Plecodus_straeleni
+|  +--| (59/68)
+|     +-----Eretmodus_cyanostictus
+|
+|     +---Neolamprologus_modestus
+|  +--| (37.4/61)
+|  |  +---Variabilichromis_moorii
++--| (83.4/88)
+   +--Neolamprologus_toae
+
+Tree in newick format:
+
+(Altolamprologus_calvus:0.0467531424,((((((((((((((((((((((Amatitlania_sajica:0.0413847458,Parachromis_managuensis:0.0365315422)83.7/84:0.0062915320,(Amphilophus_citrinellus:0.0189823983,Amphilophus_trimaculatus:0.0355885969)98.8/100:0.0270289903)71.9/72:0.0049430931,(Mayaheros_urophthalmus:0.0266158440,Petenia_splendida:0.0174743738)100/100:0.0459282772)97.4/99:0.0202037567,Caquetaia_kraussii:0.0995048186)87.7/96:0.0131155489,Rocio_octofasciata:0.0867144878)74.7/78:0.0068744746,Nandopsis_tetracanthus:0.0864020621)75.8/83:0.0059687712,(((Herichthys_cyanoguttatus:0.0302145588,Herichthys_labridens:0.0396311769)99.9/100:0.0254945058,Vieja_bifasciata:0.0532960295)99.8/99:0.0209565975,((Thorichthys_maculipinnis:0.0661542846,Thorichthys_meeki:0.0472875961)99.7/100:0.0345285654,Trichromis_salvini:0.1053062923)42.8/73:0.0076479317)99.8/100:0.0175040958)99.8/98:0.0188573232,(Heros_efasciatus:0.0572019853,Uaru_amphiacanthoides:0.0637138907)96.8/98:0.0301090889)100/100:0.0288808629,(Hoplarchus_psittacus:0.0909196197,Hypselecara_temporalis:0.0751998061)99.3/100:0.0310734792)99.9/100:0.0360572974,(Andinoacara_pulcher:0.0864798842,Andinoacara_rivulatus:0.0997833881)100/100:0.1585396085)90.9/92:0.0122831843,(Mikrogeophagus_ramirezi:0.1606048309,Satanoperca_jurupari:0.1596362865)99.7/100:0.0555184831)97.5/95:0.0188146119,Cichla_temensis:0.1216618126)87.8/86:0.0114028507,Retroculus_xinguensis:0.2427385890)98.7/95:0.0358528362,((Paratilapia_polleni:0.1802468076,(Ptychochromis_grandidieri:0.0356033738,Ptychochromis_oligacanthus:0.0135000786)100/100:0.1942030510)80.4/74:0.0275733364,((Paretroplus_maculatus:0.1464820910,Pseudetroplus_maculatus:0.2662154865)82.5/94:0.0332520216,Planiliza:0.2564545180)93.4/73:0.0391959000)91/85:0.0269564044)84.7/83:0.0116828250,Heterochromis_multidens:0.1992213712)100/100:0.0918507796,((Hemichromis_elongatus:0.0625824951,(Rubricatochromis_bimaculatus:0.0000027877,Rubricatochromis_letourneuxi:0.0413107830)100/100:0.1792730555)100/100:0.1152089141,((Nanochromis_parilus:0.2189105250,Pelvicachromis_pulcher:0.2475216412)83.7/84:0.0576247843,Teleogramma_depressa:0.2166064914)96.9/100:0.0557797912)23.2/45:0.0140791759)99.8/100:0.0400444312,(Coptodon_guineensis:0.0555018215,Coptodon_zillii:0.0462907532)100/100:0.0507934398)82.3/77:0.0155501792,(((Oreochromis_andersonii:0.0313925876,Oreochromis_tanganicae:0.0203966149)78.2/76:0.0067716638,Oreochromis_niloticus:0.0279216067)100/100:0.0265968238,((Sarotherodon_galilaeus:0.0069945272,Stomatepia_mariae:0.0121717801)100/100:0.0226540976,Sarotherodon_melanotheron:0.0316796700)97.4/97:0.0099297282)99.9/100:0.0203340045)72.9/46:0.0028313598,((Congolapia_bilineata:0.0684091618,Tilapia_sparrmanii:0.0658744377)95.6/98:0.0191003554,Pelmatolapia_mariae:0.0720979178)45.5/45:0.0066140075)97.7/99:0.0110263437,Boulengerochromis_microlepis:0.0475670164)90.1/94:0.0040397961,(Bathybates_fasciatus:0.0205389533,Bathybates_ferox:0.0289894023)100/100:0.0554424696)99.8/100:0.0173559256,(((Aulonocranus_dewindti:0.0367704841,(Cardiopharynx_schoutedeni:0.0161668953,Ophthalmotilapia_ventralis:0.0129001989)31/63:0.0063927271)100/100:0.0510132250,((Cyphotilapia_frontosa:0.0337572683,(Cyrtocara_moorii:0.0362021303,((((Limnotilapia_dardennii:0.0109230851,Pseudosimochromis_curvifrons:0.0138808436)99.6/100:0.0084746449,Petrochromis_polyodon:0.0117620507)61.8/65:0.0017307639,Tropheus_duboisi:0.0199650769)97.2/99:0.0059114281,Tropheus_moorii:0.0146946118)94.6/96:0.0057672935)100/100:0.0204427254)97.2/95:0.0098539740,(Cyprichromis_leptosoma:0.0402440207,Plecodus_straeleni:0.0444426167)92.3/91:0.0078368054)78.3/65:0.0019922612)96.5/98:0.0087500132,Eretmodus_cyanostictus:0.0675643050)59/68:0.0047375579)100/100:0.0292308770,((Neolamprologus_modestus:0.0406653231,Variabilichromis_moorii:0.0416506543)37.4/61:0.0060261324,Neolamprologus_toae:0.0295183421)83.4/88:0.0037108472);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -57891.824464
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---Altolamprologus_calvus
+|
+|                                                                        +---Amatitlania_sajica
+|                                                                     +--| (84)
+|                                                                     |  +--Parachromis_managuensis
+|                                                                  +--| (72)
+|                                                                  |  |  +--Amphilophus_citrinellus
+|                                                                  |  +--| (100)
+|                                                                  |     +--Amphilophus_trimaculatus
+|                                                               +--| (99)
+|                                                               |  |   +--Mayaheros_urophthalmus
+|                                                               |  +---| (100)
+|                                                               |      +--Petenia_splendida
+|                                                            +--| (96)
+|                                                            |  +---------Caquetaia_kraussii
+|                                                         +--| (78)
+|                                                         |  +-------Rocio_octofasciata
+|                                                      +--| (83)
+|                                                      |  +-------Nandopsis_tetracanthus
+|                                                   +--| (98)
+|                                                   |  |        +--Herichthys_cyanoguttatus
+|                                                   |  |     +--| (100)
+|                                                   |  |     |  +---Herichthys_labridens
+|                                                   |  |  +--| (99)
+|                                                   |  |  |  +----Vieja_bifasciata
+|                                                   |  +--| (100)
+|                                                   |     |     +-----Thorichthys_maculipinnis
+|                                                   |     |  +--| (100)
+|                                                   |     |  |  +---Thorichthys_meeki
+|                                                   |     +--| (73)
+|                                                   |        +---------Trichromis_salvini
+|                                                +--| (100)
+|                                                |  |  +----Heros_efasciatus
+|                                                |  +--| (98)
+|                                                |     +-----Uaru_amphiacanthoides
+|                                             +--| (100)
+|                                             |  |  +--------Hoplarchus_psittacus
+|                                             |  +--| (100)
+|                                             |     +------Hypselecara_temporalis
+|                                          +--| (92)
+|                                          |  |               +-------Andinoacara_pulcher
+|                                          |  +---------------| (100)
+|                                          |                  +---------Andinoacara_rivulatus
+|                                       +--| (95)
+|                                       |  |    +---------------Mikrogeophagus_ramirezi
+|                                       |  +----| (100)
+|                                       |       +---------------Satanoperca_jurupari
+|                                    +--| (86)
+|                                    |  +-----------Cichla_temensis
+|                                 +--| (95)
+|                                 |  +-----------------------Retroculus_xinguensis
+|                              +--| (83)
+|                              |  |     +-----------------Paratilapia_polleni
+|                              |  |  +--| (74)
+|                              |  |  |  |                  +--Ptychochromis_grandidieri
+|                              |  |  |  +------------------| (100)
+|                              |  |  |                     +--Ptychochromis_oligacanthus
+|                              |  +--| (85)
+|                              |     |      +-------------Paretroplus_maculatus
+|                              |     |   +--| (94)
+|                              |     |   |  +--------------------------Pseudetroplus_maculatus
+|                              |     +---| (73)
+|                              |         +-------------------------Planiliza
+|                     +--------| (100)
+|                     |        +-------------------Heterochromis_multidens
+|                 +---| (100)
+|                 |   |             +-----Hemichromis_elongatus
+|                 |   |  +----------| (100)
+|                 |   |  |          |                 +--Rubricatochromis_bimaculatus
+|                 |   |  |          +-----------------| (100)
+|                 |   |  |                            +---Rubricatochromis_letourneuxi
+|                 |   +--| (45)
+|                 |      |         +---------------------Nanochromis_parilus
+|                 |      |    +----| (84)
+|                 |      |    |    +------------------------Pelvicachromis_pulcher
+|                 |      +----| (100)
+|                 |           +---------------------Teleogramma_depressa
+|              +--| (77)
+|              |  |    +----Coptodon_guineensis
+|              |  +----| (100)
+|              |       +---Coptodon_zillii
+|           +--| (46)
+|           |  |        +--Oreochromis_andersonii
+|           |  |     +--| (76)
+|           |  |     |  +--Oreochromis_tanganicae
+|           |  |  +--| (100)
+|           |  |  |  +--Oreochromis_niloticus
+|           |  +--| (100)
+|           |     |     +--Sarotherodon_galilaeus
+|           |     |  +--| (100)
+|           |     |  |  +--Stomatepia_mariae
+|           |     +--| (97)
+|           |        +--Sarotherodon_melanotheron
+|        +--| (99)
+|        |  |     +-----Congolapia_bilineata
+|        |  |  +--| (98)
+|        |  |  |  +-----Tilapia_sparrmanii
+|        |  +--| (45)
+|        |     +------Pelmatolapia_mariae
+|     +--| (94)
+|     |  +---Boulengerochromis_microlepis
+|  +--| (100)
+|  |  |    +--Bathybates_fasciatus
+|  |  +----| (100)
+|  |       +--Bathybates_ferox
++--| (100)
+|  |          +--Aulonocranus_dewindti
+|  |     +----| (100)
+|  |     |    |  +--Cardiopharynx_schoutedeni
+|  |     |    +--| (63)
+|  |     |       +--Ophthalmotilapia_ventralis
+|  |  +--| (98)
+|  |  |  |     +--Cyphotilapia_frontosa
+|  |  |  |  +--| (95)
+|  |  |  |  |  |  +--Cyrtocara_moorii
+|  |  |  |  |  +--| (100)
+|  |  |  |  |     |           +--Limnotilapia_dardennii
+|  |  |  |  |     |        +--| (100)
+|  |  |  |  |     |        |  +--Pseudosimochromis_curvifrons
+|  |  |  |  |     |     +--| (65)
+|  |  |  |  |     |     |  +--Petrochromis_polyodon
+|  |  |  |  |     |  +--| (99)
+|  |  |  |  |     |  |  +--Tropheus_duboisi
+|  |  |  |  |     +--| (96)
+|  |  |  |  |        +--Tropheus_moorii
+|  |  |  +--| (65)
+|  |  |     |  +---Cyprichromis_leptosoma
+|  |  |     +--| (91)
+|  |  |        +---Plecodus_straeleni
+|  +--| (68)
+|     +-----Eretmodus_cyanostictus
+|
+|     +---Neolamprologus_modestus
+|  +--| (61)
+|  |  +---Variabilichromis_moorii
++--| (88)
+   +--Neolamprologus_toae
+
+
+Consensus tree in newick format: 
+
+(Altolamprologus_calvus:0.0467325408,((((((((((((((((((((((Amatitlania_sajica:0.0413592435,Parachromis_managuensis:0.0364933085)84:0.0063081844,(Amphilophus_citrinellus:0.0190487644,Amphilophus_trimaculatus:0.0355398305)100:0.0269639919)72:0.0049411458,(Mayaheros_urophthalmus:0.0265979172,Petenia_splendida:0.0174577837)100:0.0459034659)99:0.0202199827,Caquetaia_kraussii:0.0994277851)96:0.0130843092,Rocio_octofasciata:0.0866521220)78:0.0068783265,Nandopsis_tetracanthus:0.0863216720)83:0.0059644049,(((Herichthys_cyanoguttatus:0.0301998854,Herichthys_labridens:0.0396034891)100:0.0254764848,Vieja_bifasciata:0.0532579977)99:0.0209501119,((Thorichthys_maculipinnis:0.0661134351,Thorichthys_meeki:0.0472490773)100:0.0345033618,Trichromis_salvini:0.1052251220)73:0.0076615179)100:0.0174947535)98:0.0188372934,(Heros_efasciatus:0.0571795470,Uaru_amphiacanthoides:0.0636152549)98:0.0301746358)100:0.0288654139,(Hoplarchus_psittacus:0.0908624862,Hypselecara_temporalis:0.0751421489)100:0.0310703272)100:0.0360406717,(Andinoacara_pulcher:0.0864440331,Andinoacara_rivulatus:0.0997127103)100:0.1584371247)92:0.0122767175,(Mikrogeophagus_ramirezi:0.1604908708,Satanoperca_jurupari:0.1595198595)100:0.0555167034)95:0.0188047226,Cichla_temensis:0.1215918854)86:0.0114103207,Retroculus_xinguensis:0.2425814862)95:0.0358183452,((Paratilapia_polleni:0.1799438276,(Ptychochromis_grandidieri:0.0356131958,Ptychochromis_oligacanthus:0.0134750034)100:0.1939911999)74:0.0278103199,((Paretroplus_maculatus:0.1464012069,Pseudetroplus_maculatus:0.2660514259)94:0.0331251738,Planiliza:0.2562853162)73:0.0393138022)85:0.0269156132)83:0.0116888456,Heterochromis_multidens:0.1990905719)100:0.0917943038,((Hemichromis_elongatus:0.0625501465,(Rubricatochromis_bimaculatus:0.0000020689,Rubricatochromis_letourneuxi:0.0412885000)100:0.1791685091)100:0.1151658204,((Nanochromis_parilus:0.2187490210,Pelvicachromis_pulcher:0.2473255753)84:0.0576765325,Teleogramma_depressa:0.2164600058)100:0.0557654258)45:0.0140817488)100:0.0400233677,(Coptodon_guineensis:0.0554780144,Coptodon_zillii:0.0462631086)100:0.0507952465)77:0.0155353392,(((Oreochromis_andersonii:0.0313794200,Oreochromis_tanganicae:0.0203872093)76:0.0067696725,Oreochromis_niloticus:0.0279097206)100:0.0265869086,((Sarotherodon_galilaeus:0.0069924086,Stomatepia_mariae:0.0121652091)100:0.0226440880,Sarotherodon_melanotheron:0.0316673660)97:0.0099265909)100:0.0203270781)46:0.0028313280,((Congolapia_bilineata:0.0683735634,Tilapia_sparrmanii:0.0658389665)98:0.0190980774,Pelmatolapia_mariae:0.0720615567)45:0.0066138188)99:0.0110226962,Boulengerochromis_microlepis:0.0475469019)94:0.0040394382,(Bathybates_fasciatus:0.0205334851,Bathybates_ferox:0.0289745289)100:0.0554170624)100:0.0173493631,(((Aulonocranus_dewindti:0.0367560298,(Cardiopharynx_schoutedeni:0.0161612495,Ophthalmotilapia_ventralis:0.0128945342)63:0.0063901419)100:0.0509923247,((Cyphotilapia_frontosa:0.0337430660,(Cyrtocara_moorii:0.0361880192,((((Limnotilapia_dardennii:0.0109188359,Pseudosimochromis_curvifrons:0.0138753861)100:0.0084718915,Petrochromis_polyodon:0.0117578757)65:0.0017291686,Tropheus_duboisi:0.0199573892)99:0.0059104050,Tropheus_moorii:0.0146900064)96:0.0057650246)100:0.0204351061)95:0.0098531449,(Cyprichromis_leptosoma:0.0402250973,Plecodus_straeleni:0.0444225241)91:0.0078407007)65:0.0019902510)98:0.0087463432,Eretmodus_cyanostictus:0.0675343157)68:0.0047371025)100:0.0292176932,((Neolamprologus_modestus:0.0406463709,Variabilichromis_moorii:0.0416316502)61:0.0060255061,Neolamprologus_toae:0.0295054049)88:0.0037085583);
+
+TIME STAMP
+----------
+
+Date and time: Sat Nov  1 13:06:51 2025
+Total CPU time used: 247.312193 seconds (0h:4m:7s)
+Total wall-clock time used: 122.6420326 seconds (0h:2m:2s)
+
