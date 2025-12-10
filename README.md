@@ -47,6 +47,8 @@ bacisthebest
 ## Usage
 
 Files contained in the **scripts/** directory can be run in order. R and RStudio are required to run these scripts.
+Alignments are performed using MAFFT online version. 
+Trait data was manually collected using iNaturalist and Fishbase.
 
 ## Directory Structure
 
