@@ -32,7 +32,6 @@ filtered_nd5 <- csv_nd5 %>%
 common_species <- intersect(intersect(filtered_coi$taxid, filtered_ptr$taxid), filtered_cytb$taxid)
 
 common_species_names <- intersect(intersect(filtered_coi$species_name, filtered_ptr$species_name), filtered_cytb$species_name)
-write.csv(common_species_names, "~/Desktop/68_diet_data.csv")
 
 length(common_species) # 68 taxa across the first 3 genes
 
@@ -105,7 +104,7 @@ for (i in 1:length(coi68_csvtofasta$accession_num)) {
   print("Fasta added.")
 }
 
-writeLines(as.character(coi_sequence), "./data/raw/metadata/coi_68_out.fasta")
+writeLines(as.character(coi_sequence), "./data/raw/coi_68_out.fasta")
 
 ### PTR ####
 ptr68_csvtofasta <- read.csv("./data/raw/ptr68.csv")
@@ -124,7 +123,7 @@ for (i in 1:length(ptr68_csvtofasta$accession_num)) {
   print("Fasta added.")
 }
 
-writeLines(as.character(ptr_sequence), "./data/raw/metadata/ptr_68_out.fasta")
+writeLines(as.character(ptr_sequence), "./data/raw/ptr_68_out.fasta")
 
 
 
@@ -145,7 +144,7 @@ for (i in 1:length(cytb68_csvtofasta$accession_num)) {
   print("Fasta added.")
 }
 
-writeLines(as.character(cytb_sequence), "./data/raw/metadata/cytb_68_out.fasta")
+writeLines(as.character(cytb_sequence), "./data/raw/cytb_68_out.fasta")
 
 
 
@@ -169,7 +168,7 @@ for (i in 1:length(nd268_csvtofasta$accession_num)) {
   print("Fasta added.")
 }
 
-writeLines(as.character(nd2_sequence), "./data/raw/metadata/nd2_68_out.fasta")
+writeLines(as.character(nd2_sequence), "./data/raw/nd2_68_out.fasta")
 
 
 
@@ -193,4 +192,4 @@ for (i in 1:length(nd568_csvtofasta$accession_num)) {
   print("Fasta added.")
 }
 
-writeLines(as.character(nd5_sequence), "./data/raw/metadata/nd5_68_out.fasta")
+writeLines(as.character(nd5_sequence), "./data/raw/nd5_68_out.fasta")
