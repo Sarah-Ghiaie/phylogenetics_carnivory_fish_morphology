@@ -70,3 +70,4 @@ Trait data was manually collected using iNaturalist and Fishbase.
 | **Dataset_Activity** | Easy access to files needed for this assignment submission |
 | **Draft_Trees** | Easy access to files needed for this assignment submission |
 | **Final_Tree** | Easy access to files needed for final assignment submission |
+| **extra_visualizations** | Additional plots made for presentation |
